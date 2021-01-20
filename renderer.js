@@ -24,5 +24,4 @@ function clearBody() {
     let body = document.getElementById("body");
     body.innerHTML = null;
 }
-
 // clearBody();
