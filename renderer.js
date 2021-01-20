@@ -1,4 +1,6 @@
-const { ipcRenderer } = require('electron')
+const {
+    ipcRenderer
+} = require('electron')
 
 document.getElementById('toggle-dark-mode').addEventListener('click', async () => {
     const isDarkMode = await ipcRenderer.invoke('dark-mode:toggle')

@@ -1,4 +1,9 @@
-const { app, BrowserWindow, ipcMain, nativeTheme } = require('electron')
+const {
+    app,
+    BrowserWindow,
+    ipcMain,
+    nativeTheme
+} = require('electron')
 
 function createWindow() {
     const win = new BrowserWindow({
